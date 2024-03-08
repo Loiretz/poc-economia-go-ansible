@@ -1,4 +1,2 @@
 ---
-- src: Loiretz@github.com:Loiretz/poc-economia-go-ansible.git
-  name: infra.convert2rhel.analysis
-  scm: git
+- roles_path: /roles
