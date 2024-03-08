@@ -9,6 +9,10 @@
         - "{{ ansible_distribution }}"
         - "{{ ansible_distribution_version }}"
         - "{{ ansible_distribution_major_version }}"
-    - name: Generate pre-conversion analysis report
-      ansible.builtin.import_role:
-        name: infra.convert2rhel.analysis
+    -import_role:
+      name: analysis
+#    - name: Generate pre-conversion analysis report
+#      ansible.builtin.import_role:
+#        name: infra.convert2rhel.analysis
+      
+
